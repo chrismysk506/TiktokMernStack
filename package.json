@@ -1,44 +1,17 @@
 {
-  "name": "tiktokclonebyme",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/icons": "^4.11.2",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^16.8.0  || ^17.0.0",
-    "react-dom": "^16.8.0  || ^17.0.0",
-    "react-scripts": "4.0.3",
-    "react-ticker": "^1.2.2",
-    "web-vitals": "^1.1.2"
-  },
+  "name": "tiktokbackend",
+  "version": "1.0.0",
+  "description": "this is tiktok",
+  "main": "server.js",
+  "type":"module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "peerDependencies": {
-    "react": "^16.8.0  || ^17.0.0",
-    "react-dom": "^16.8.0  || ^17.0.0"
+  "author": "himanshu kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
   }
 }
